@@ -5,6 +5,7 @@ A notebook created with python.
 * [General info](#general-info)
 * [Technologies](#technologies)
 * [Setup](#setup)
+* [Plug-in](#plug-in)
 * [Test](#test)
 * [Screenshots](#screenshots)
 
@@ -18,7 +19,7 @@ Project is created with:
 * tkinter
 * PyAutoGUI
 
-see `requirements.txt` for a complete list of used libraries
+see `requirements.txt` for a list of used libraries generated with `pip3 freeze` command.
 	
 ## Setup
 To run this project:
@@ -37,6 +38,9 @@ To run the test for the project:
 $ pip3 install -r requirements.txt
 $ python3 test.py
 ```
+
+## Plug-in
+If you want to add a plugin, place the file in `plugin/` folder, then add the import in `main.py` and modify `plugins` list.
 
 ## Screenshots
 ![Screenshot](docs/images/screenshot_1.png)
