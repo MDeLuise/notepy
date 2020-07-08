@@ -10,7 +10,7 @@ A notebook created with python.
 * [Screenshots](#screenshots)
 
 ## General info
-A side project focused on learning how to make GUI with python and playing with PyAutoGUI library.
+A side project focused on learning how to make GUI with python and playing with PyAutoGUI library.  
 Notepy consists in a simple notebook, it can be used to create new files, modify existing files, etc. The main feature of this notebook is that it is easily cutomizable adding plug-in.
 	
 ## Technologies
@@ -29,7 +29,7 @@ $ pip3 install -r requirements.txt
 $ python3 main.py
 ```
 
-If you want to add a plug-in, place the file in `plugin` folder, then add the import in `main.py` and modiy `start_app` function.
+If you want to add a plug-in, place the file in `plugin` folder, then add the import in `main.py` and modify `start_app` function.
 
 ## Test
 To run the test for the project:
